@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="432a045e47020210eb020b02d16d43a1" extends="sc_cat_item" label="AWS Account Data" max_length="40" name="x_445072_accountcr_aws_account_data" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
