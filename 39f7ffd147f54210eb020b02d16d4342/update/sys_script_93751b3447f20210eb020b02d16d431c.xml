@@ -46,6 +46,7 @@
         r.setStringParameterNoEscape('SSOUserLastName', lastName);
         r.setStringParameterNoEscape('SNOWTicketID', current.number);
 
+		r.setRequestHeader('Authorization', 'lp71vdw34sqin8ar0hebyzk26tuc5jmg');
         //override authentication profile 
         //authentication type ='basic'/ 'oauth2'
         //r.setAuthenticationProfile(authentication type, profile name);
@@ -72,7 +73,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>93751b3447f20210eb020b02d16d431c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Create AWS Account</sys_name>
         <sys_overrides/>
         <sys_package display_value="AccountCreationAWS" source="x_445072_accountcr">39f7ffd147f54210eb020b02d16d4342</sys_package>
@@ -80,7 +81,7 @@
         <sys_scope display_value="AccountCreationAWS">39f7ffd147f54210eb020b02d16d4342</sys_scope>
         <sys_update_name>sys_script_93751b3447f20210eb020b02d16d431c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-12 21:09:28</sys_updated_on>
+        <sys_updated_on>2024-06-21 15:56:28</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>
