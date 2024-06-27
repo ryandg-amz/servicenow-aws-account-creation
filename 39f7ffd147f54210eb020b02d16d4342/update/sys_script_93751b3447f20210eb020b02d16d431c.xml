@@ -46,7 +46,7 @@
         r.setStringParameterNoEscape('change_requested_by', `${firstName} ${lastName}`);
         r.setStringParameterNoEscape('accountEmail', current.variables.unique_email_address);
         r.setStringParameterNoEscape('SSOUserLastName', lastName);
-		r.setStringParameterNoEscape('change_reason', current.variables.business_justification);
+		r.setStringParameterNoEscape('change_reason', current.variables.change_reason);
         r.setStringParameterNoEscape('SNOWTicketID', current.number);
 
 		
@@ -77,7 +77,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>93751b3447f20210eb020b02d16d431c</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Create AWS Account</sys_name>
         <sys_overrides/>
         <sys_package display_value="AccountCreationAWS" source="x_445072_accountcr">39f7ffd147f54210eb020b02d16d4342</sys_package>
@@ -85,7 +85,7 @@
         <sys_scope display_value="AccountCreationAWS">39f7ffd147f54210eb020b02d16d4342</sys_scope>
         <sys_update_name>sys_script_93751b3447f20210eb020b02d16d431c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-27 13:31:13</sys_updated_on>
+        <sys_updated_on>2024-06-27 16:31:42</sys_updated_on>
         <template/>
         <when>async_always</when>
     </sys_script>
